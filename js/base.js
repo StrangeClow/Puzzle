@@ -29,7 +29,7 @@ function main() {
 	addChild(loadingHint);
 	
 	/**加载图片*/ 
-	LLoadManage.load(
+	LLoadManage.load( 
 		[
 		    {path : "./js/Block.js"},
 			{name : "img", path : "./img/img.jpg"}
@@ -45,7 +45,7 @@ function main() {
 			gameInit();
 		}
 	);
-}
+}   
 
 function gameInit (e) {
 	/**初始化舞台层*/
