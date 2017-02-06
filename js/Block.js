@@ -1,6 +1,6 @@
 function Block (index, x, y) {
 	LExtends(this, LSprite, []);
-	
+	   
 
 	var bmpd = imgBmpd.clone();
 	bmpd.setProperties(x * 130, y * 130, 130, 130);
@@ -46,7 +46,7 @@ Block.exchangePosition = function (b1, b2) {
 		b1Index = b1y * 3 + b1x,
 		b2Index = b2y * 3 + b2x;
 
-	/** 在地图块数组中交换两者位置 */
+	/** 在地图块数组中交换两者位置   */
 	blockList.splice(b1Index, 1, b2);
 	blockList.splice(b2Index, 1, b1);
 
