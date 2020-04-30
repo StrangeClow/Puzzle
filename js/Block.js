@@ -1,3 +1,10 @@
+
+/**
+ *  js oop
+ *
+ * @param 
+ * @returns
+ */
 function Block (index, x, y) {
 	LExtends(this, LSprite, []);
 	   
